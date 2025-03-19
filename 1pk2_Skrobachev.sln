@@ -3,11 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.35906.104 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1pk2_Skrobachev", "1pk2_Skrobachev\1pk2_Skrobachev.csproj", "{D5D24FFD-A70F-45D7-A2D2-713379C5C1AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson_2", "Lesson_2", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_02_02", "Task_02_02\Task_02_02.csproj", "{AF65512C-33C4-4B3C-9EF7-DC64AE37EAB6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5D24FFD-A70F-45D7-A2D2-713379C5C1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D24FFD-A70F-45D7-A2D2-713379C5C1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D24FFD-A70F-45D7-A2D2-713379C5C1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D24FFD-A70F-45D7-A2D2-713379C5C1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF65512C-33C4-4B3C-9EF7-DC64AE37EAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF65512C-33C4-4B3C-9EF7-DC64AE37EAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF65512C-33C4-4B3C-9EF7-DC64AE37EAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF65512C-33C4-4B3C-9EF7-DC64AE37EAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF65512C-33C4-4B3C-9EF7-DC64AE37EAB6} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BDF47EDE-A8D3-4628-8F38-C8EA9613B259}
+		SolutionGuid = {4A11E09E-105C-4F80-AB51-4349E2099E03}
 	EndGlobalSection
 EndGlobal
